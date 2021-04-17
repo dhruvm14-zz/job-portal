@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
-* {
-  box-sizing: border-box;
-}
-
 body {
-  background: #f6f5f7;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
-  margin: -20px 0 50px;
 }
 
 h1 {
@@ -45,8 +39,8 @@ a {
 
 .login-button {
   border-radius: 20px;
-  border: 1px solid #ff4b2b;
-  background-color: #ff4b2b;
+  border: 1px solid #c3073f;
+  background-color: #c3073f;
   color: #ffffff;
   font-size: 12px;
   font-weight: bold;
@@ -76,6 +70,7 @@ a {
   justify-content: center;
   flex-direction: column;
   padding: 0 50px;
+  margin: 0 !important;
   height: 100%;
   text-align: center;
 }
@@ -107,7 +102,7 @@ input {
 
 .sign-up-container {
   left: 0;
-  width: 50%;
+  width: 100%;
   opacity: 0;
   z-index: 1;
 }
@@ -149,9 +144,9 @@ input {
 }
 
 .overlay {
-  background: #ff416c;
-  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
-  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  background: #c3073f;
+  background: -webkit-linear-gradient(to right, #950740, #c3073f);
+  background: linear-gradient(to right, #950740, #c3073f);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
